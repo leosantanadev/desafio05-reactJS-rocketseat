@@ -1,1 +1,40 @@
-// TODO
+.post {
+  display: flex;
+  flex-direction: column;
+
+  padding: 1.5rem;
+  border-radius: 16px;
+
+  background: var(--background-hover);
+
+  transition: all ease-in-out .2s;
+
+  & + div {
+    margin-top: 1.75rem;
+  }
+
+  &:hover {
+    transform: scale(1.015);
+  }
+}
+
+.loadMore {
+  margin-top: 1.5rem;
+
+  border: none;
+  background: var(--pink-300);
+
+  border-radius: 16px;
+  padding: .5rem 2rem;
+
+  transition: all ease-in-out .2s;
+
+  span {
+    color: var(--white);
+    font-weight: 400;
+  }
+
+  &:hover {
+    filter: brightness(0.9)
+  }
+}
