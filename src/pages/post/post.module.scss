@@ -33,10 +33,66 @@
     font-weight: bold;
     margin-bottom: 1.25rem;
   }
+
+  > div {
+    margin-bottom: 18px;
+  }
 }
 
 .bodyContent {
   padding: 1rem;
 
   margin: 4rem 0;
+}
+
+.otherLinksContainer{
+  border-top: 1px solid var(--gray-300);
+
+  margin-top: 2rem;
+
+  display: flex;
+  justify-content: space-between;
+
+  padding: 1rem .2rem;
+}
+
+.previousPostLink {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+
+  a {
+    font-size: 18px;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  strong {
+    font-size: 15px;
+    margin-top: 3px;
+    color: var(--pink-500);
+  }
+}
+
+.nextPostLink {
+  display: flex;
+  justify-content: right;
+  flex-direction: column;
+  text-align: right;
+
+    a {
+      font-size: 18px;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+
+  strong {
+    font-size: 15px;
+    margin-top: 3px;
+    color: var(--pink-500);
+  }
 }
