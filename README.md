@@ -6,5 +6,9 @@ Algumas features usadas na aplicação:
 - getStaticProps e getStaticPaths com 'nextJS'
 - Formatação de datas com `date-fns`;
 - Uso de ícones com `react-icons`;
+- Estilizações global, comun e individuais;
+- Importação de fontes Google;
+- Paginação de posts;
+- Cálculo de tempo estimado de leitura do post;
 
 🚀🚀🚀🚀
