@@ -1,7 +1,10 @@
-# desafio05-reactJS-rocketseat
+# 💻 Desafio Rocketseat
 
-# 💻 Sobre o desafio
+Tinhamos o objetivo de criar uma aplicaçao do zero com nextJS seguindo um layout ja criado vindo do figma e alimentariamos a aplicação com dados vindos de um Headless CMS ( PrismicCMS )
 
-Nesse desafio, Tinhamos o objetivo de criar uma aplicaçao do zero que consumiria posts do prismic CMS com nextJS, implementando algumas skills como getStaticProps paginação com fecth entre outras
+Algumas features usadas na aplicação:
+- getStaticProps e getStaticPaths com 'nextJS'
+- Formatação de datas com `date-fns`;
+- Uso de ícones com `react-icons`;
 
 🚀🚀🚀🚀
